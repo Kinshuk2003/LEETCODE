@@ -11,9 +11,7 @@ class Solution:
             else:
                 stack.append(i)
         
-        ans = ""
-        for i in stack:
-            ans +=i
+        ans = "".join(stack)
         
         return ans
         
